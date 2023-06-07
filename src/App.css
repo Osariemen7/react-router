@@ -1,0 +1,56 @@
+main {
+  text-align: center;
+}
+.card {
+  background: aqua;
+  width:300px;
+  border: 1px solid aqua;
+  padding:2%;
+  border-radius:15px;
+  margin:20px;
+  display: inline-block;
+}
+nav {
+  background-color: black;
+  text-align: end;
+  padding: 2%;
+}
+.nav {
+  text-decoration: none;
+  background-color: black;
+  margin: 20px;
+  color:white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.nav:hover {
+  color:aqua;
+}
+.paginationBtns {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+.paginationBtns a {
+  margin:20px 10px;
+  padding: 8px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.paginationBtns a:hover {
+  background-color: aqua;
+} 
+.paginationActive a {
+  background-color: aqua; 
+}
+.prod {
+  text-decoration: none;
+  background-color: rgb(10, 68, 78);
+  color:beige;
+  margin: 10px;
+  padding: 4px;
+  font-size: 25px;
+}
